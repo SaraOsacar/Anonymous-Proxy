@@ -1,21 +1,24 @@
 .hero{
-    width: 100%;
-    position: relative;
-    display: flex;
-    text-align: center;
-}
-
-.hero-content{
-    width: 320px;
+    background-image: url(../images/cover.jpg);
     height: 568px;
-    padding: 1 15px 53px 0;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+
+   
 }
-.h1{
-    display: flex;
+
+.hero-container{
+
+  
     
-    
+}
+.hero-title{
+
+      
+}
+
+.hero-paragraph{
+    color: red;
 
 }
