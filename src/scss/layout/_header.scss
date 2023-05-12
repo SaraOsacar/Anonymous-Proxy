@@ -5,11 +5,15 @@
     text-align: center;
 }
 
-.cover{
+.hero-content{
     width: 320px;
     height: 568px;
     padding: 1 15px 53px 0;
     /*background-blend-mode: multiply;*/
     background-image: url(../images/cover.jpg);
+}
+.h1{
+    display: flex;
+    
 
 }
