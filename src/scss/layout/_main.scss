@@ -1,85 +1,139 @@
 .main {
+  &__container {
+    padding: 30px 15px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
-    &__container {
-       padding: 30px 15px 45px;
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
+    //    &--blue {
+    //     background-color: $ice-blue;
+    //     align-items: center;
+    //     padding-bottom: 60px;
+    //     gap: 45px;
+    //    }
 
-       &--blue {
-        background-color: $ice-blue;
-        align-items: center;
-        padding-bottom: 60px;
-        gap: 45px;
-       }
-    }
-
-
+   }
     &__header {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
     }
 
     &__pretitle {
-        color: $light-blue;
-        font-family: $font-text;
-        line-height: $line-height;
-        font-size: 14px;
+      color: $light-blue;
+      font-family: $font-text;
+      line-height: $line-height;
+      font-size: 14px;
     }
 
     &__title {
-        font-size: 24px;
-        font-family: $font-title;
-        line-height: $line-height;
+      font-size: 24px;
+      font-family: $font-title;
+      line-height: $line-height;
     }
 
     &__paragraph {
-        font-size: 18px;
-        line-height: 30px;
-        color: $greyish-brown;
-        font-family: $font-text;
-        margin: 15px 0 30px 0;
+      font-size: 18px;
+      line-height: 30px;
+      color: $greyish-brown;
+      font-family: $font-text;
+      margin: 15px 0 30px 0;
     }
 
     &__button {
-        width: max-content;
-        padding: 0 25px 0 25px;
-        color: $bright-orange;
-        border: solid 2px $bright-orange;
-        background-color: $white;
-        border-radius: 22.5px;
-        line-height: 45px;
-        font-size: 20px;
+      width: max-content;
+      padding: 0 25px 0 25px;
+      color: $bright-orange;
+      border: solid 2px $bright-orange;
+      background-color: $white;
+      border-radius: 22.5px;
+      line-height: 45px;
+      font-size: 20px;
 
-        &--orange {
-            background-color: $bright-orange;
-            color: $white;
-            margin: 30px;
+      &--orange {
+        background-color: $bright-orange;
+        color: $white;
+        margin: 30px;
+      }
+    }
+   
+    &__container-blue {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: $ice-blue;
+        @media screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        &__title {
+            font-family: $font-title;
+            
+
+        }
+
+        &__list {
+            /*gap: 45px;*/
+            list-style: none;
+            display: grid;
+            
+
+            &__content{
+                
+                
+
+                &--title {
+                    font-family: $font-title;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    
+
+                }
+
+                &--paragraph {
+                    font-family: $font-text;
+
+
+                }
+            }
+        }
+
+        &__button-two {
+      
+      width: max-content;
+      height: 45px;
+      padding: 0 25px 0 25px;
+      color: $white;
+      background-color: $bright-orange;
+      border-radius: 22.5px;
+      font-size: 20px;
+
         }
     }
 
-    &__list { 
-        display: flex;
-        flex-direction: column;
-        gap: 45px;
-        list-style: none;
-    }
+  
+    
 
-    &__list-text {
-        font-size: 18px;
-        line-height: $line-height;
-        text-align: center;
-    }
 
-    &__list-title {
-        font-family: $font-title;
-        
-    }
 
-    &__list-paragraph {
-        font-family: $font-text;
-             
-    }
+
+  &__list-text {
+    font-size: 18px;
+    line-height: $line-height;
+    text-align: center;
+  }
+
+  &__list-title {
+    font-family: $font-title;
+  }
+
+  &__list-paragraph {
+    font-family: $font-text;
+  }
 }
+
+
 
