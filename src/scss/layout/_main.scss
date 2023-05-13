@@ -11,97 +11,87 @@
     //     padding-bottom: 60px;
     //     gap: 45px;
     //    }
+  }
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
 
-   }
-    &__header {
-      display: flex;
-      flex-direction: column;
-      gap: 1px;
+  &__pretitle {
+    color: $light-blue;
+    font-family: $font-text;
+    line-height: $line-height;
+    font-size: 14px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-family: $font-title;
+    line-height: $line-height;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: $greyish-brown;
+    font-family: $font-text;
+    margin: 15px 0 30px 0;
+  }
+
+  &__button {
+    width: max-content;
+    padding: 0 25px 0 25px;
+    color: $bright-orange;
+    background-color: $white;
+    border-radius: 22.5px;
+    line-height: 45px;
+    font-size: 20px;
+
+    &--orange {
+      background-color: $bright-orange;
+      color: $white;
+      margin: 30px;
     }
+  }
 
-    &__pretitle {
-      color: $light-blue;
-      font-family: $font-text;
-      line-height: $line-height;
-      font-size: 14px;
+  &__container-blue {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: $ice-blue;
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
     }
 
     &__title {
-      font-size: 24px;
       font-family: $font-title;
-      line-height: $line-height;
+      text-align: center;
+      font-size: 24px;
     }
 
-    &__paragraph {
-      font-size: 18px;
-      line-height: 30px;
-      color: $greyish-brown;
-      font-family: $font-text;
-      margin: 15px 0 30px 0;
-    }
+    &__list {
+      /*gap: 45px;*/
+      list-style: none;
+      display: grid;
 
-    &__button {
-      width: max-content;
-      padding: 0 25px 0 25px;
-      color: $bright-orange;
-      background-color: $white;
-      border-radius: 22.5px;
-      line-height: 45px;
-      font-size: 20px;
+      &__content {
+        &--title {
+          font-family: $font-title;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+        }
 
-      &--orange {
-        background-color: $bright-orange;
-        color: $white;
-        margin: 30px;
+        &--paragraph {
+          font-family: $font-text;
+        }
       }
     }
-   
-    &__container-blue {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        background-color: $ice-blue;
-        @media screen and (min-width: 768px) {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-        }
 
-        &__title {
-            font-family: $font-title;
-            text-align: center;
-            font-size: 24px;
-        }
-
-        &__list {
-            /*gap: 45px;*/
-            list-style: none;
-            display: grid;
-            
-
-            &__content{
-                
-                
-
-                &--title {
-                    font-family: $font-title;
-                    font-size: 18px;
-                    line-height: 30px;
-                    text-align: center;
-                    
-
-                }
-
-                &--paragraph {
-                    font-family: $font-text;
-
-
-                }
-            }
-        }
-
-        &__button-two {
-      
+    &__button-two {
       width: max-content;
       height: 45px;
       padding: 0 25px 0 25px;
@@ -109,15 +99,8 @@
       background-color: $bright-orange;
       border-radius: 22.5px;
       font-size: 20px;
-
-        }
     }
-
-  
-    
-
-
-
+  }
 
   &__list-text {
     font-size: 18px;
@@ -133,6 +116,3 @@
     font-family: $font-text;
   }
 }
-
-
-
