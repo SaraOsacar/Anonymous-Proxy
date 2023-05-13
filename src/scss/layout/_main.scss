@@ -44,7 +44,6 @@
       width: max-content;
       padding: 0 25px 0 25px;
       color: $bright-orange;
-      border: solid 2px $bright-orange;
       background-color: $white;
       border-radius: 22.5px;
       line-height: 45px;
@@ -70,8 +69,8 @@
 
         &__title {
             font-family: $font-title;
-            
-
+            text-align: center;
+            font-size: 24px;
         }
 
         &__list {
