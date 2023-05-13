@@ -1,0 +1,42 @@
+<section class="main__container">
+      <p class="phrase">Insomnia Tips</p>
+      <h2 class="title-container1">Looking Through A Window</h2>
+      <p class="paragraph">
+        Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+        luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+      </p>
+   
+      <button class="main__button">Go</button>
+      <button class="main__button main__button--white">Main reasons</button>
+      <button class="main__button main__button--black">Main reasons</button>
+    </section>
+    
+    <section class="container2">
+      <div class="title-container2">3 Reasons To Purchase</div>
+      <article class="list">
+        <ul class="text1">
+          <li>
+            <h3 class="main-phrase">Ut sed metus</h3>
+            <p class="paragraph2">Lorem ipsum dolor sit amet, consecteur.</p>
+          </li>
+        </ul>
+    
+        <ul class="text2">
+          <li>
+            <h3 class="main-phrase">Curabitur ac erat</h3>
+            <p class="paragraph2">Mauris mattis urna quis lorem molestie.</p>
+          </li>
+        </ul>
+    
+        <ul class="text3">
+          <li>
+            <h3 class="main-phrase">Morbi dictum</h3>
+            <p class="paragraph2">Aliquam in dolor et dolor tincidunt.</p>
+          </li>
+        </ul>
+    
+        <article class="button">
+          <button class="main__button main__button--white">More reasons</button>
+        </article>
+      </article>
+    </section>
