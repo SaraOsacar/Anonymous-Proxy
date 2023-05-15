@@ -51,6 +51,9 @@
 }
 
 .footer-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
     background-color: $white;
     width: 45px;
     height: 45px;
@@ -58,7 +61,11 @@
     padding: 9px;
     display: flex;
     margin: auto;
-    transform: translateY(-50%);
+    transform: translateY(-20px);
+    @media screen and (min-width : 768px) {
+     transform: translateY(-100px);   
+    }
+    
     
 
 
@@ -98,13 +105,16 @@
 }
 
 @media screen and (min-width : 768px) {
-.footer-copylogo {
+.footer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
 }
     
+.footer-copylogo {
+    order: -1;
+    
+}
 
 }
