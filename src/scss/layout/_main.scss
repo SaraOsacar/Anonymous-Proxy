@@ -58,7 +58,7 @@
   &__container-blue {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     background-color: $ice-blue;
     @media screen and (min-width: 768px) {
       display: grid;
@@ -109,6 +109,9 @@
       background-color: $bright-orange;
       border-radius: 22.5px;
       font-size: 20px;
+      margin: 0 auto;
+      border: $bright-orange;
+
     }
   }
 
