@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
 
-    color: white;
+    color: $white;
     list-style: none;
     text-decoration: none;
     margin-top: 60px;
@@ -22,6 +22,7 @@
 .container__two {
     margin-right: 86px;
     margin-left: 87px;
+    margin-top: 47px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@
 .footer__nav--list {
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: $white;
 }
 .footer__nav__two--listtwo {
     list-style: none;
@@ -58,6 +59,8 @@
     display: flex;
     margin: auto;
     transform: translateY(-50%);
+    
+
 
 
 }
