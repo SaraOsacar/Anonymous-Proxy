@@ -68,7 +68,10 @@
       font-size: 24px;
       padding: 30px 15px 45px 15px;
       @media screen and (min-width: 768px) {
-      grid-column: 1/4 /*título*/
+      grid-column: 1/4;
+      font-size: 26px;
+      
+      
     }
     }
   
@@ -86,6 +89,7 @@
       &__content-1 {
         @media screen and (min-width: 768px){
           grid-column: 1/2;
+          
         }
         &--title {
           font-family: $font-title;
@@ -93,7 +97,6 @@
           line-height: 30px;
           text-align: center;
           
-
         }
 
         &--paragraph {
