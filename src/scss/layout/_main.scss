@@ -47,6 +47,7 @@
     border-radius: 22.5px;
     line-height: 45px;
     font-size: 20px;
+    
 
     &--orange {
      background-color: $bright-orange;
@@ -111,6 +112,10 @@
       font-size: 20px;
       margin: 0 auto;
       border: $bright-orange;
+      margin-top: 45px;
+      text-align: center;
+      
+
 
     }
   }
