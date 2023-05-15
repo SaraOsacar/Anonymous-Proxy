@@ -14,11 +14,10 @@
 .hero_content{
     color: $white;   
     text-align: center;
-    padding-bottom: 174px;
     padding-top: 284px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 45px;
+    padding-bottom: 45px; 
 }
 
 .hero_title {
@@ -49,6 +48,7 @@
 }
 @media screen and (min-width: 768px){
 
+   
     .hero_title {
         font-size: 80px;
         line-height: 106px;
@@ -58,6 +58,8 @@
     .hero_paragraph {
         font-size: 24px;
         padding-bottom: 30px;
+        padding-right: 39px;
+        
     }    
         
 
@@ -66,4 +68,14 @@
 
 @media screen and (min-width: 1200px) {
 
+    .hero_title {
+        font-size: 100px;
+        line-height: 132px;
+    }
+        
+
+    .hero_paragraph {
+        font-size: 24px;
+          
+}
 }
