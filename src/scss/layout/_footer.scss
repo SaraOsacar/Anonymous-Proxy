@@ -23,6 +23,8 @@
     margin-right: 86px;
     margin-left: 87px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__nav--list {
@@ -64,6 +66,10 @@
     color: white;
     font-family: $font-text;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
     
 }
     
@@ -89,6 +95,13 @@
 }
 
 @media screen and (min-width : 768px) {
+.footer-copylogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
     
 
 }
