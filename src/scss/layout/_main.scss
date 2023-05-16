@@ -162,6 +162,7 @@
       grid-column: 1/2;
       width: max-content;
       height: 45px;
+      margin-top: 45px;
       padding: 0 25px 0 25px;
       color: $white;
       background-color: $bright-orange;
@@ -172,7 +173,9 @@
       margin-right: 97.5px;*/
       border: $bright-orange;
       margin-top: 45px;
-      text-align: center;
+      display: block;
+      margin: auto;
+      
       @media screen and (min-width: 768px){
         grid-column: 1/4;
         align-items: center;
