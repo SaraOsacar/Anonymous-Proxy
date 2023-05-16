@@ -15,6 +15,7 @@
     margin-right: 123px;
     margin-bottom: 30px;
     margin-left: 124px;
+    text-align: center;
     
 }
     
@@ -24,6 +25,8 @@
     margin-top: 47px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
 }
 
 .footer__nav--list {
@@ -45,6 +48,7 @@
     align-content: center;
     @media screen and (min-width : 768px) {
         justify-content: flex-start;
+        text-align: left;
         
         
     }
