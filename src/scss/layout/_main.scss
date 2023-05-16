@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
   }
   &__header {
     display: flex;
@@ -26,8 +25,6 @@
       font-size: 16px;
       margin-left: 275px;
       margin-right: 645px;
-
-
     }
   }
 
@@ -35,23 +32,18 @@
     font-size: 24px;
     font-family: $font-title;
     line-height: $line-height;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       font-size: 26px;
       line-height: 45px;
       margin-left: 40px;
       margin-right: 40px;
       margin-bottom: 30px;
-
     }
     @media screen and (min-width: 1200px) {
       font-size: 32px;
       line-height: 45px;
       margin-left: 275px;
       margin-right: 275px;
-     
-
-
-
     }
   }
 
@@ -67,11 +59,9 @@
       margin-right: 40px;
       margin-bottom: 30px;
     }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
       margin-left: 275px;
       margin-right: 275px;
-
-
     }
   }
 
@@ -89,7 +79,6 @@
       margin-left: 40px;
       width: 91px;
       text-align: center;
-      
     }
 
     @media screen and (min-width: 1200px) {
@@ -97,10 +86,9 @@
       width: 160px;
       text-align: center;
     }
-    
 
     &--orange {
-     background-color: $bright-orange;
+      background-color: $bright-orange;
       color: $white;
       margin: 30px;
     }
@@ -123,14 +111,13 @@
       font-size: 24px;
       padding: 30px 15px 45px 15px;
       @media screen and (min-width: 768px) {
-      grid-column: 1/4;
-      font-size: 26px;
+        grid-column: 1/4;
+        font-size: 26px;
+      }
+      @media screen and (min-width: 1200px) {
+        font-size: 32px;
+      }
     }
-    @media screen and (min-width: 1200px){
-      font-size: 32px;
-    }
-    }
-  
 
     &__list {
       grid-column: 1/4;
@@ -138,15 +125,13 @@
       display: grid;
       gap: 45px;
       margin-bottom: 60px;
-      @media screen and (min-width: 768px){
+      @media screen and (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
       }
 
-
       &__content-1 {
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px) {
           grid-column: 1/2;
-          
         }
         &--title {
           font-family: $font-title;
@@ -155,12 +140,10 @@
           text-align: center;
           @media screen and (min-width: 768px) {
             font-size: 24px;
-
           }
           @media screen and (min-width: 1200px) {
             font-size: 30px;
           }
-          
         }
 
         &--paragraph {
@@ -172,18 +155,14 @@
           margin-right: 30px;
           @media screen and (min-width: 768px) {
             font-size: 20px;
-
           }
-          @media screen and (min-width: 1200px){
+          @media screen and (min-width: 1200px) {
             font-size: 20px;
-
           }
-
-
         }
       }
       &__content-2 {
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px) {
           grid-column: 2/3;
         }
         &--title {
@@ -193,13 +172,10 @@
           text-align: center;
           @media screen and (min-width: 768px) {
             font-size: 24px;
-
           }
           @media screen and (min-width: 1200px) {
             font-size: 30px;
           }
-          
-
         }
 
         &--paragraph {
@@ -211,18 +187,15 @@
           margin-right: 30px;
           @media screen and (min-width: 768px) {
             font-size: 20px;
-
           }
-          @media screen and (min-width: 1200px){
+          @media screen and (min-width: 1200px) {
             font-size: 20px;
-
           }
-
         }
       }
 
       &__content-3 {
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px) {
           grid-column: 3/4;
         }
         &--title {
@@ -232,13 +205,10 @@
           text-align: center;
           @media screen and (min-width: 768px) {
             font-size: 24px;
-
           }
           @media screen and (min-width: 1200px) {
             font-size: 30px;
           }
-          
-
         }
 
         &--paragraph {
@@ -250,13 +220,10 @@
           margin-right: 30px;
           @media screen and (min-width: 768px) {
             font-size: 20px;
-
           }
-          @media screen and (min-width: 1200px){
+          @media screen and (min-width: 1200px) {
             font-size: 20px;
-
           }
-
         }
       }
     }
@@ -272,19 +239,15 @@
       border-radius: 22.5px;
       font-size: 20px;
       margin-bottom: 60px;
-      /*margin-left: 98.5px;
-      margin-right: 97.5px;*/
       border: $bright-orange;
       margin-top: 45px;
       display: block;
       margin: auto;
-      
-      @media screen and (min-width: 768px){
+
+      @media screen and (min-width: 768px) {
         grid-column: 1/4;
         align-items: center;
-        
       }
-
     }
   }
 }
