@@ -2,13 +2,12 @@
     background-color: #304268;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+     
 }
 
 .container {
     display: flex;
     flex-direction: column;
-
     color: $white;
     list-style: none;
     text-decoration: none;
@@ -16,14 +15,13 @@
     margin-right: 123px;
     margin-bottom: 30px;
     margin-left: 124px;
-    text-align: center;
+    
 }
     
 .container__two {
     margin-right: 86px;
     margin-left: 87px;
     margin-top: 47px;
-    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -32,6 +30,12 @@
     list-style: none;
     text-decoration: none;
     color: $white;
+    @media screen and (min-width : 768px) {
+        text-align: left;
+        
+    
+    }
+
 }
 .footer__nav__two--listtwo {
     list-style: none;
@@ -41,6 +45,7 @@
     align-content: center;
     @media screen and (min-width : 768px) {
         justify-content: flex-start;
+        
         
     }
 
@@ -82,8 +87,13 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    text-transform: none;
+    /*@media screen and (min-width : 768px){
+        order: -1;
+        align-items: left;
 
-
+    }*/
+   
     
 }
     
@@ -118,6 +128,10 @@
     
 .footer-copylogo {
     order: -1;
+    @media screen and (min-width : 768px) {
+        align-items: left;
+
+    }
     
 }
 
